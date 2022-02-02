@@ -74,11 +74,11 @@ console.log(`Added new food to beginning: ${favFoods}`);
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
-console.log('Removed the first animal', removedAnimal);
-console.log('The animals are now', animalArray);
+console.log(`Removed the first animal ${removedAnimal}`);
+console.log(`The animals are now ${animalArray}`);
 
 // 4.d TODO: Remove the food at the beginning of your array &
 //     log both the food removed and the updated array
 removedFood = favFoods.shift();
-console.log('Removed the first food item:', removedFood);
-console.log('The favorite foods list is now:', favFoods);
+console.log(`Removed the first food item: ${removedFood}`);
+console.log(`The favorite foods list is now: ${favFoods}`);
